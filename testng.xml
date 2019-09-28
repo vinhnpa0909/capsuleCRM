@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Capsule CRM Test">
+
+
+	<test name="Add New User Test">
+
+		<classes>
+			<class name="capsulecrm.AddPersonTest" />
+			<class name="capsulecrm.AddNewCase" />
+			<class name="capsulecrm.ConfigurationTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

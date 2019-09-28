@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Capsule CRM Test" duration-ms="1614" started-at="2019-09-28T05:21:18Z" finished-at="2019-09-28T05:21:20Z">
+    <groups>
+    </groups>
+    <test name="Add New User Test" duration-ms="1614" started-at="2019-09-28T05:21:18Z" finished-at="2019-09-28T05:21:20Z">
+      <class name="capsulecrm.AddPersonTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:capsulecrm.AddPersonTest@6a28ffa4]" name="login" is-config="true" duration-ms="17578" started-at="2019-09-28T07:21:01Z" finished-at="2019-09-28T07:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- capsulecrm.AddPersonTest -->
+      <class name="capsulecrm.ConfigurationTest">
+        <test-method status="PASS" signature="clickAccountSettings()[pri:0, instance:capsulecrm.ConfigurationTest@48ae9b55]" name="clickAccountSettings" duration-ms="1586" started-at="2019-09-28T07:21:18Z" finished-at="2019-09-28T07:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountSettings -->
+      </class> <!-- capsulecrm.ConfigurationTest -->
+    </test> <!-- Add New User Test -->
+  </suite> <!-- Capsule CRM Test -->
+</testng-results>

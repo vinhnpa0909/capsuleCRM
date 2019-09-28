@@ -1,0 +1,14 @@
+configuration\AccountPage.class
+main\AddNewPeoplePage.class
+capsulecrm\page\HomePage.class
+capsulecrm\base\Base.class
+capsulecrm\page\LoginAccount.class
+main\PeopleInfoPage.class
+main\AddCasePage.class
+capsulecrm\page\LoginDomain.class
+capsulecrm\page\MainPage.class
+main\CasesPage.class
+capsulecrm\base\ExcelReader.class
+capsulecrm\base\TestUtil.class
+capsulecrm\base\TopMenu.class
+main\PeoplePage.class
