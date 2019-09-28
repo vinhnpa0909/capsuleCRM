@@ -65,7 +65,7 @@ public class TopMenu {
 		System.out.println(isPresent(By.xpath("//div[contains(@class,'bottom-right')]//child::a[2]")));
 
 		driver.findElement(By.xpath("//div[contains(@class,'bottom-right')]//child::a[2]"))
-				.click();
+				.click(); 
 
 		return new AccountPage();
 	}
