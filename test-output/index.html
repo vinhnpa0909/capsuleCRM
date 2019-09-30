@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Capsule_CRM_Test" title="capsulecrm.ConfigurationTest" hash-for-method="clickAccountSettings">clickAccountSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Capsule_CRM_Test" title="capsulecrm.ConfigurationTest" hash-for-method="titleAccount">titleAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Capsule_CRM_Test -->
@@ -128,6 +133,13 @@
                   <a name="clickAccountSettings">
                   </a> <!-- clickAccountSettings -->
                   <span class="method-name">clickAccountSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleAccount">
+                  </a> <!-- titleAccount -->
+                  <span class="method-name">titleAccount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,11 +198,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'clickAccountSettings')
 data.setCell(0, 2, 'capsulecrm.ConfigurationTest')
-data.setCell(0, 3, 1586);
+data.setCell(0, 3, 1243);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'titleAccount')
+data.setCell(1, 2, 'capsulecrm.ConfigurationTest')
+data.setCell(1, 3, 83);
 window.suiteTableData['Capsule_CRM_Test']= { tableData: data, tableDiv: 'times-div-Capsule_CRM_Test'}
 return data;
 }
@@ -249,7 +265,11 @@ return data;
               <div class="chronological-class-name">capsulecrm.ConfigurationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">clickAccountSettings</span>
-                <span class="method-start">17602 ms</span>
+                <span class="method-start">18578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleAccount</span>
+                <span class="method-start">19884 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

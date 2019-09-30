@@ -143,4 +143,12 @@ public class Base {
 		}
 		
 	}
+	
+	public static boolean isContent(WebElement menu, WebElement content) {
+		if(menu.getText().equals(content.getText()))
+			return true;
+		else
+			return false;
+		
+	}
 }
